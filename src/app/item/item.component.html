@@ -1,6 +1,6 @@
 <li class="item">
   <p>{{ item.name }}</p>
-  <button class="delete">
+  <button class="delete" (click)="onDelete(item.id)">
     <span aria-hidden="true">❌</span>
     <span class="sr-only">delete</span>
   </button>

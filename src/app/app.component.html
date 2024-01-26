@@ -1,5 +1,5 @@
 <div class="container">
-  <app-item-list [items]="items"></app-item-list>
+  <app-item-list [items]="items" (delete)="onDeleteItem($event)"></app-item-list>
 
   <button class="add" (click)="onAddItem()">
     <span aria-hidden="true">➕</span>
