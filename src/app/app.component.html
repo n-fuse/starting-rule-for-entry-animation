@@ -1,7 +1,7 @@
 <div class="container">
   <app-item-list [items]="items"></app-item-list>
 
-  <button class="add">
+  <button class="add" (click)="onAddItem()">
     <span aria-hidden="true">➕</span>
     <span class="sr-only">add new item</span>
   </button>

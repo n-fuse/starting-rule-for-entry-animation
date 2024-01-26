@@ -23,4 +23,8 @@ export class AppComponent {
       name: 'Item 4 Name',
     },
   ];
+
+  onAddItem() {
+    this.items.push({ name: 'New Item' });
+  }
 }
