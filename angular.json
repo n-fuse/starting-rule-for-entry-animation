@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "example-application-with-new-css-entry-transition:build:production"
+              "buildTarget": "example-application-with-new-css-entry-transition:build:production"
             },
             "development": {
-              "browserTarget": "example-application-with-new-css-entry-transition:build:development"
+              "buildTarget": "example-application-with-new-css-entry-transition:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "example-application-with-new-css-entry-transition:build"
+            "buildTarget": "example-application-with-new-css-entry-transition:build"
           }
         },
         "test": {
@@ -106,6 +106,5 @@
         }
       }
     }
-  },
-  "defaultProject": "example-application-with-new-css-entry-transition"
+  }
 }
