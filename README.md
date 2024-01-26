@@ -1,6 +1,6 @@
 # ExampleApplicationWithNewCssEntryTransition
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+This project demostrates the issue that occurs in a production build when the ```@starting-rule``` is applied
 
 ## Development server
 
@@ -13,6 +13,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Serve Build locally to test the issue
+
+- Navigate to the `dist/example-application-with-new-css-entry-transition` directory
+- Run ```http-server``` within the above directory
 
 ## Running unit tests
 
